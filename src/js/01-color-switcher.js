@@ -7,7 +7,7 @@
 //Deklaruje zmienną let która bedzie    przerwa
 //Kożystam z podanej funkcji getRandomHexColor
 //Wykorzystuje metodę .setAttribute która ustawia nową wartość atrybutu
-//Dodaje detektor zdarzeń do elementu .addEventListener 
+//Dodaje detektor zdarzeń .addEventListener do elementu
 //Na click (buttonStart)=> element w momencie kliknięcia(target) otrzymuje atrybut 'disabled'
 //Na click (buttonStop) => z elementu zostaje usunięty atrybut 'disabled'
 //Do zmiennej let dodaje metode .setInterval która powtarza ten sam kod w kółko
