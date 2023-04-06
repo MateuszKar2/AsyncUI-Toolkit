@@ -14,9 +14,9 @@
 //Wykorzystując funkcje getRandomHexColor wywołuje losowe kolory w odstępie 0,5s
 //Analogicznie do przycisku buttonStart obsługuje przycisk buttonStop
 
+const bodyChangeColor = document.querySelector('body');
 const buttonStart = document.querySelector('[data-start]');
 const buttonStop = document.querySelector('[data-stop]');
-const bodyChangeColor = document.querySelector('body');
 
 let intervalId = null;
 
