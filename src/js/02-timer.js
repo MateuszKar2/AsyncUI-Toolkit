@@ -1,6 +1,16 @@
+//Deklaruje zmienną "addLeadingZero"
+//Wykorzystuje metodę .toString która przedstawia data w podstawowej formie
+//Korzystam z metody .padStart która ograniczy długość ciągu do określonej liczby znaków
+//Deklaruje obiekt options na podstawie dokumentacji, któy będzie drugim argumentem funkcji 'flatpickr'
+//Używam gotowej funkcji 'convertMS' która ustawi zależności przedziału czasu
+//Dodaje metodę .floor która zaokrągla liczbę do liczby całkowitej w dół
+//Na podstawie biblioteki korzystam z funkcji 'flatpickr' - to lekki i potężny selektor daty i godziny
+
+
 import flatpickr from "flatpickr";
 import 'flatpickr/dist/flatpickr.min.css';
-import Notiflix from 'notiflix';
+import Notiflix from "notiflix";
+
 const inputFlatPickr = document.querySelector('#datetime-picker');
 const startBtn = document.querySelector('button[data-start]');
 const spanDays = document.querySelector('span[data-days]');
