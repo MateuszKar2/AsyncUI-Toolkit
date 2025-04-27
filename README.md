@@ -1,4 +1,4 @@
-# AsyncUI-Toolkit
+ # AsyncUI-Toolkit
 
 **AsyncUI-Toolkit** is a collection of JavaScript tools for manipulating the user interface, handling events, and working with asynchronous operations. The project consists of three main functionalities:
 
